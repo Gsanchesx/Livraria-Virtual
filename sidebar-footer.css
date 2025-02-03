@@ -1,0 +1,246 @@
+body{
+    background-color:#c7a476;
+    font-family: var(--font-open-sans);
+
+
+}
+
+h1{
+    color: 
+    #311d21;
+}
+/* Posicionando o primeiro bloco */
+.sidebar{
+    position: fixed;
+    top: 8px;
+    left: 0px;
+    bottom: 0;
+    padding: 12px;
+    width: 330px;
+}
+/* Estilizando a cor do primeiro bloco e caracteristicas */
+.sidebar__navigation{
+    background-color: #f0d6b3;
+    border-radius: 10px;
+    padding: 16px 0px 0px 16px;
+    height: 260px;
+}
+
+/* Editando a div que contem o logo */
+.sidebar__navigation .logo{
+    background-color: #ffe9cc;
+    display: flex;
+    border-radius: 8px;
+    margin: 0px 23px 0 10px;
+    justify-content: center;
+}
+
+/* Ajustando a imagem */
+.sidebar .sidebar__navigation .logo img{
+    width: 200px;
+}
+
+/* Editando a lista no geral */
+.sidebar nav ul{
+    margin-top: 20px;
+    padding: 0px 20px 10px 20px;
+}
+
+/* Editando a lista mais específica */
+.sidebar nav ul li {
+    padding: 10px 10px 0;
+}
+/* Cor do texto da lista*/
+.sidebar nav ul li a {
+    color: #412e32;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    transition: ease 0.2s;
+}
+
+.sidebar nav ul li a:hover{
+    color: #5a0f1f;
+}
+
+.library{
+  
+    background-color: #f0d6b3;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px 8px;
+    color:  #412e32;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 15px;
+    height: 350px;
+}
+
+.library .library__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button{
+    display: flex;
+    margin-right: 10px;
+    color:#141212;
+    background-color: transparent;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.library .library__button .texto-span:hover{
+    color: #5a0f1f;
+}
+
+.library .library__button .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library .library__content .fa-plus {
+    margin: 26px 10px;
+}
+
+.section-livros{
+    background-color:  #ffe9cc;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    color: #311d21;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+
+.section-livros .section-livros__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-livros .section-livros__content .text{
+    padding-bottom: 15px;
+    color:#311d21;
+    font-weight: 500;
+}
+
+
+.section-livros .section-livros__content .title{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.section-livros .section-livros__content .subtitle{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.section-livros__content .section-livro__button{
+    display: flex;
+    justify-content: center;
+    background-color: #ebb155;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    margin-top: 12px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.section-livros__content .section-livro__button:hover{
+    background-color: #ffbb62;
+    transform: scale(1.016);
+}
+
+ .languages .languages__button{
+    align-items: center;
+    background: transparent;
+    border: 1px solid #412e32;
+    color: #2c1d05;
+    cursor: pointer;
+    font-weight: bold;
+    width: 190px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+    transition: 0.4s;
+ }
+
+ .languages .languages__button:hover{
+    color: #5a0f1f;
+ }
+
+ footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ebb155;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ footer .footer__content{
+    flex-shrink: 0;
+ }
+
+ footer .footer__content .footer-title{
+    color: rgb(138, 42, 13);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 15px;
+ }
+
+
+ footer .footer__content .footer-subtitle{
+    color: #2c1d05;
+    font-size: 14px;
+    font-weight: 500;
+ }
+
+ footer .footer__content .footer-subtitle span{
+    font-weight: 900;
+    color:#412e32
+ }
+
+ footer button{
+    color: #442807;
+    background-color: #fffde4;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 160px;
+    font-weight: 700;
+    border: none;
+    transition: ease 0.43s;
+    cursor: pointer;
+ }
+
+
+ footer button:hover{
+    background-color: rgb(138, 42, 13);
+    filter: drop-shadow(1px 7px 6px #695d1828);
+    transform: scale(1.01);
+    color: #fffde4;
+
+ }
