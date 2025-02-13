@@ -1,0 +1,123 @@
+/* HEADER */
+@media screen and (max-width: 1850px){
+    .offer__list-item{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 1550px){
+    .offer__list-item{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 1280px){
+    .offer__list-item{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .main-container .header__search input{
+        background-color: none;
+        width: 100px;
+    }
+ }
+
+
+/* Botoes */
+@media screen and (max-width: 1175px){
+    .header__login .subscribe{
+       display: none;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .header__login .login{
+       display: none;
+    }
+
+    .offer__list-item{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Textos */
+@media screen and (max-width: 1000px){
+    .playlist #greeting{
+        font-size: 35px;
+    }
+
+    .playlist .session{
+        font-size: 25px;
+    }
+/* CARD */
+    .cards{
+        width: 300px;
+        height: 240px;
+    }
+
+    .cards img{
+        height: 175px;
+        width: 127px;
+    }
+
+    .cards span{
+        font-size: 27px;
+    }
+}
+
+
+
+/* Footer */
+
+@media screen and (max-width: 1060px){
+  footer{
+    display: flex;
+  }
+
+  footer .footer__content .footer-title{
+    font-size: 17px;
+  }
+  footer .footer__content .footer-subtitle{
+    font-size: 12px;
+  }
+
+  footer .button__footer{
+    height: 40px;
+    width: 170px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 870px){
+    footer .button__footer{
+        display: none;
+      }
+}
+/* Corpo */
+@media screen and (max-width: 918px){
+    .playlist-container #greeting{
+        font-size: 32px;
+    }
+    .playlist-container .session{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 880px) {
+    .playlist-container #greeting{
+        font-size: 28px;
+    }
+    .playlist-container .session{
+        font-size: 16px;
+    }
+ }
+
+ @media screen and (max-width: 835px) {
+    .playlist-container #greeting{
+        font-size: 26px;
+    }
+    .playlist-container .session{
+        font-size: 14px;
+    }
+ }
